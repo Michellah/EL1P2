@@ -11,8 +11,6 @@ function App() {
       super(props);
       this.state = {isToggleOn: true};
   
-      // Cette liaison est nécéssaire afin de permettre
-      // l'utilisation de `this` dans la fonction de rappel.
       this.handleClick = this.handleClick.bind(this);
     }
   
